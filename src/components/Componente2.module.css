@@ -1,0 +1,41 @@
+.comp2{
+    background-image: url(../assets/decolads_branco.png);
+    background-position-y: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+.comp21 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.comp21 img {
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.comp22{
+    width: 50%;
+    color: #0c0003;
+    text-align:justify;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.comp22 h1{
+    font-size: 2rem;
+    margin:0;
+}
+
+.comp22 p{
+    margin: 0.5rem;
+}

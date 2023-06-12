@@ -1,0 +1,61 @@
+.comp5 {
+    background-color: #0c0003;
+    color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+.comp5 h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.comp5 h4 {
+    margin: 0;
+}
+
+.comp5 ul {
+    display: flex;
+    list-style: none;
+}
+
+.comp5 li {
+    color: #0c0003;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 0rem;
+    
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    width: 20rem;
+    height: 21rem;
+    text-align: justify;
+}
+
+.comp5 h3 {
+    color: #e30127;
+    font-size: 1.2rem;
+}
+
+.comp5 li img{
+    width: 5rem;
+    border-radius: 3rem;
+}
+
+.comp5 li h3{
+    margin: 0.6rem 0;
+}

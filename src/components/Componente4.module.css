@@ -1,0 +1,35 @@
+.comp4 {
+    font-family: 'Catamaran';
+    font-weight: 400;
+    background-color: #0c0003;
+    color: white;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 4rem 0;
+}
+
+.comp4 h1{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    padding: 0 5rem;
+}
+
+.comp4 button{
+    margin-top: 2rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.8rem;
+    border-style: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+.comp4 button:hover{
+    background-color: rgb(112, 45, 45);
+    color: white;
+    font-weight: 700;
+}

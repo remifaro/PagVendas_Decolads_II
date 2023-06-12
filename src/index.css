@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder{
+  font-family: "Catamaran", sans-serif; 
+}
+
+input:focus,
+textarea:focus{
+  outline: none;
+}
+
+a,
+nav button,
+button{
+  transition: .4s;
+  cursor: pointer;
+  font-family: "Catamaran", sans-serif; 
+}

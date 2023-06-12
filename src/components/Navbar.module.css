@@ -1,0 +1,36 @@
+.navbar {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #0c0003;
+    padding: 0 5rem;
+}
+
+.links_list {
+    color: white;
+    font-family: catamaran;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    list-style: none;
+}
+
+.links_list li a {
+    padding: 0 .8rem;
+    text-decoration: none;
+}
+
+.links_list li a:visited{
+    color: white;
+} 
+
+.links_list li a:hover {
+    color:#e30127;
+    transition: .4s;
+}
+
+nav img{
+    height: 50px;
+    padding-top: 2rem 0;
+}
