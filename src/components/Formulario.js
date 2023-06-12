@@ -24,7 +24,7 @@ const Formulario = () => {
             fone: fone,
             mensagem: mensagem
         }).then(()=>{
-            if(!alert("Contato enviado com sucesso!")) document.location = 'http://localhost:3000/contato'
+            if(!alert("Contato enviado com sucesso!")) document.location = 'https://decolads.netlify.app/contato'
         }).catch((error)=>{
             alert(error.message)
         })
