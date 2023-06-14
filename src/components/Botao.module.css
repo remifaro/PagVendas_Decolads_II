@@ -23,3 +23,7 @@
     background-color: rgb(112, 45, 45);
     transition: .4s;
 }
+
+a{
+    text-decoration: none;
+}

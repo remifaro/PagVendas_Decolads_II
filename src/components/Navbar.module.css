@@ -34,3 +34,7 @@ nav img{
     height: 50px;
     padding-top: 2rem 0;
 }
+
+a{
+    text-decoration: none;
+}
