@@ -9,8 +9,6 @@ import Contato from "./pages/Contato/Contato";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-require('dotenv').config()
-
 function App() {
   return (
     <div className="App">
