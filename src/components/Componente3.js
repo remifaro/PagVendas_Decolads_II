@@ -14,7 +14,7 @@ const Componente3 = () => {
             <ul>
                 <li><img src={SimboloTrafego} alt="Símbolo Tráfego" />
                     <h3>Tráfego Pago</h3>
-                    <p>Fazemos com que sua empresa tenha mais visibilidade na região, consequentemente aumentando o seu faturamento. Para sua empresa ser encontada por quem você desejar, utilizamos anúncios no Google e YouTube Ads, Facebook e Instagram Ads.</p>
+                    <p>Fazemos com que sua empresa tenha mais visibilidade na região, consequentemente aumentando o seu faturamento. Para sua empresa ser encontrada por quem você desejar, utilizamos anúncios no Google e YouTube Ads, Facebook e Instagram Ads.</p>
                 </li>
                 <li><img src={SimboloSite} alt="Símbolo Site" />
                     <h3>Criação de Sites</h3>
