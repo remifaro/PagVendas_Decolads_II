@@ -14,7 +14,7 @@ const Componentecontato = () => {
         </div>
       </div>
       <div className={styles.form}>
-        <p>Envie suas informações no formulário abaixo! Explique seu caso para que possamos entrar em contato o mais rápido com você! Juntos vamos colocar seu negócio no topo! </p>
+        <p>Envie suas informações no formulário abaixo! Explique seu caso para que possamos entrar em contato o mais rápido com você. Juntos vamos colocar seu negócio no topo! </p>
         <Formulario />
       </div>
     </>

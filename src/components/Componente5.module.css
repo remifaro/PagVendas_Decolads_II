@@ -1,7 +1,7 @@
 .comp5 {
     background-color: #0c0003;
     color: white;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,10 @@
 
 .comp5 ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    padding: 0;
 }
 
 .comp5 li {
@@ -30,7 +33,6 @@
     border-color: white;
     border-width: 0.1rem;
     border-radius: 1rem;
-    
     
     display: flex;
     flex-direction: column;
@@ -42,7 +44,7 @@
     padding: 1rem;
     font-size: 0.8rem;
     width: 20rem;
-    height: 21rem;
+    height: auto;
     text-align: justify;
 }
 
@@ -58,4 +60,37 @@
 
 .comp5 li h3{
     margin: 0.6rem 0;
+}
+
+
+/* -------------------------- */
+/* media query */
+    
+@media (max-width: 420px) {
+
+    .comp5 {
+        height: auto;
+        padding: 2rem 2rem;
+    }
+
+    .comp5 h1 {
+        font-size: 1.5rem;
+    }
+    
+    .comp5 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 1rem 0 1rem;
+        padding: 0;
+    }
+
+    .comp5 li {
+        margin: .5rem 0;
+        padding: 1rem;
+        height: auto;
+        width: auto;
+    }
+
 }

@@ -35,3 +35,28 @@
     font-size: 1.2rem;
 }
 
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 420px) {
+    
+    .comp1{
+        height: auto;
+    }
+
+    .overlay{
+        height: 45vh;
+        
+    }
+    
+    .comp11 h1{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .comp11 p{
+        font-size: 0.9rem;
+    }
+
+}

@@ -19,7 +19,6 @@
 
 .comp21 img {
     height: 8rem;
-    border-radius: 1rem;
 }
 
 .comp22{
@@ -38,4 +37,52 @@
 
 .comp22 p{
     margin: 0.5rem;
+}
+
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 420px) {
+
+    .comp2{
+        background-image: url(../assets/decolads_branco.png);
+        background-position-y: 100%;
+        background-size: 120%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+
+    .comp21{
+        width: auto;
+        display: flex;
+        margin-bottom: 3rem;
+    }
+
+    .comp21 img {
+        height: 5rem;
+    }
+
+    .comp22{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .comp22 h1{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin:0;
+    }
+
+    .comp22 p{
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+    }
+
 }

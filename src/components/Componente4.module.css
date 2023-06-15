@@ -33,3 +33,26 @@
     color: white;
     font-weight: 700;
 }
+
+
+/* -------------------------- */
+/* media query */
+    
+@media (max-width: 420px) {
+    .comp4 {
+        background-color: #0c0003;
+        height: auto;
+        display: flex;
+        padding: 1rem 2rem;
+    }
+
+    .comp4 h1{
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+        padding: 0;
+    }
+
+    .comp4 p{
+        font-size: .9rem;
+    }
+}

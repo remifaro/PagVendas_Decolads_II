@@ -19,19 +19,26 @@
     width: 60vw;
 }
 
-.comp6 button{
-    margin-top: 2rem;
-    padding: 0.6rem 1.5rem;
-    border-radius: 0.8rem;
-    border-style: none;
-    background-color: red;
-    color: white;
-    font-weight: 700;
-}
 
-.comp6 button:hover{
-    background-color: rgb(112, 45, 45);
-    color: white;
-    font-weight: 700;
-}
+/* -------------------------- */
+/* media query */
 
+@media (max-width: 420px) {
+   
+    .comp6 {
+        height: auto;
+        padding: 2rem 2rem;
+    }
+
+    .comp6 h1{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .comp6 p{
+        font-size: 1rem;
+    }
+
+}
