@@ -43,3 +43,30 @@
     width: 800px;
     margin-bottom: 2rem;
 }
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 420px) {
+
+    .contato {
+        height: 20vh;
+    }
+
+    .overlay {
+        font-size: .9rem;  
+    }
+    
+    .form {
+        height: 95vh;
+        padding: 2rem 2rem 2rem 2rem ;
+    }
+
+    .form p {
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+        font-size: 0.9rem;
+    }
+
+}

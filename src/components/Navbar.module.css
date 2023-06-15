@@ -31,10 +31,29 @@
 }
 
 nav img{
-    height: 50px;
+    height: 4rem;
     padding-top: 2rem 0;
 }
 
 a{
+    display: flex;
     text-decoration: none;
+}
+
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 420px) {
+
+    .navbar {
+        height: 5rem;
+        padding: 0 2rem;
+    }
+
+    nav img{
+        padding-top: 0;
+        height: 50px;
+    }
+
 }

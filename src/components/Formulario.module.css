@@ -58,3 +58,35 @@ textarea::placeholder {
     background-color: #106c0c;
     transition: .4s;
 }
+
+
+/* -------------------------- */
+/* media query */
+
+@media (max-width: 420px) {
+
+    .formulario {
+        width: 80vw;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+
+    .formulario input, textarea {
+        width: 80vw;
+    }
+
+    label {
+        font-size: .9rem;
+        font-weight: 700;
+        margin-bottom: 0rem;
+    }
+
+    .formulario button{
+        font-size: .8rem;
+        font-weight: 700;
+        margin-top: 1rem;
+        width: 9rem;
+        height: 2.2rem;
+    }
+
+}
