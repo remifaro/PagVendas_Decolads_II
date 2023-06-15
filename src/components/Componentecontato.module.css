@@ -50,7 +50,7 @@
 @media (max-width: 420px) {
 
     .contato {
-        height: 20vh;
+        height: 10vh;
     }
 
     .overlay {
@@ -58,8 +58,9 @@
     }
     
     .form {
-        height: 95vh;
-        padding: 2rem 2rem 2rem 2rem ;
+        background-color: aquamarine;
+        height: auto;
+        padding: 1rem;
     }
 
     .form p {
