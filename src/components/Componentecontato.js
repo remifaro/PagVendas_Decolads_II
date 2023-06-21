@@ -2,20 +2,19 @@
 import styles from "./Componentecontato.module.css"
 
 // components
-import Formulario from "./Formulario"
-
+import Botao_form from "../components/Botao_form"
 
 const Componentecontato = () => {
   return (
     <>
       <div className={styles.contato}>
         <div className={styles.overlay}>
-          <h1>Fale Conosco</h1>
         </div>
       </div>
       <div className={styles.form}>
-        <p>Envie suas informações no formulário abaixo! Explique seu caso para que possamos entrar em contato o mais rápido com você. Juntos vamos colocar seu negócio no topo! </p>
-        <Formulario />
+      <h1>Fale Conosco</h1>
+        <p>Nossos especialistas estão prontos para conversar com você no WhatsApp, entender seu caso e explicar o passo a passo para <span>colocar seu negócio no topo</span> ! Clique no botão abaixo.</p>
+        <Botao_form />
       </div>
     </>
   )

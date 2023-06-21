@@ -1,12 +1,12 @@
 .btn {
     font-size: .9rem;
     font-weight: 700;
-    width: 18rem;
+    width: 15rem;
     height: 3rem;
     text-decoration:none;
     text-decoration-line: none;
 
-    background-color: #e30127;
+    background-color: #1d9c16;
     color: white;
     border-radius: .5rem;
     border-style: none;
@@ -20,12 +20,17 @@
 }
 
 .btn:hover {
-    background-color: rgb(112, 45, 45);
+    background-color: #106c0c;
     transition: .4s;
+    cursor: pointer;
 }
 
 a{
+    color: white;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
 }
 
 /* -------------------------- */

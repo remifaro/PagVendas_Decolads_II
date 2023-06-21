@@ -6,7 +6,7 @@ const Botao = () => {
     return (
         <NavLink to="/contato">
             <div className={styles.btn}>
-                Entre em contato agora
+                Quero decolar meu negócio agora
             </div>
         </NavLink>
     );
