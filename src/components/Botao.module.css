@@ -21,7 +21,10 @@
 
 .btn:hover {
     background-color: rgb(112, 45, 45);
-    transition: .4s;
+    border-color: #e30127;
+    border-style: solid;
+    border-width: .2rem;
+    transition: .2s;
 }
 
 a{

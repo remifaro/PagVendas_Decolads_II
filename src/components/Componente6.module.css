@@ -1,22 +1,22 @@
 .comp6 {
     font-family: 'Catamaran';
     font-weight: 400;
-    background-color: #0c0003;
+    background-color: #181A1B;
     
     color: white;
-    height: 40vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 0 6rem 0;
+    padding: 3rem 0;
 }
 
 .comp6 h1{
     font-size: 2rem;
-    margin-bottom: 0;
-    padding: 0 5rem;
+    margin: 0;
+    padding: 0;
     width: 60vw;
 }
 
