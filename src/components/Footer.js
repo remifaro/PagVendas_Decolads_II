@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css"
 
 import Logo from '../assets/logo.png';
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 
