@@ -9,8 +9,10 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <NavLink to="/" ><div><img src={Logo} alt="logo" /></div></NavLink>
-      {/* <hr /> */}
-      <p>2023 © Decolads - Negócios Digitais – Todos os Direitos Reservados | <a href="https://www.instagram.com/decolads_/"> <FaInstagram />decolads</a></p>
+      <ul>
+        <li>2023 © Decolads - Negócios Digitais</li>
+        <li>Todos os Direitos Reservados - <a href="https://www.instagram.com/decolads/"> <FaInstagram />decolads</a></li>
+      </ul>
     </div>
   )
 }

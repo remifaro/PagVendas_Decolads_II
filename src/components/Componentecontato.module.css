@@ -60,7 +60,7 @@
 @media (max-width: 420px) {
 
     .contato {
-        height: 10vh;
+        height: 15vh;
     }
 
     .overlay {
@@ -68,7 +68,7 @@
     }
     
     .form {
-        height: auto;
+        height: 60vh;
         padding: 1rem;
     }
 
